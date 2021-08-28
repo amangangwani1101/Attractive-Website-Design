@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Website Design USing Html and Css</title>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" alt="img" class="logo">
+            <div class="header-text">
+                <h1>The Purposde is To Enhance My Skils</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit tempora vitae quaerat, aperiam laudantium voluptatem et excepturi accusamus cumque molestiae maiores reiciendis perferendis similique labore voluptas nihil, pariatur distinctio.</p>  
+                <button class="common-btn">Read More</button>
+                <div class="line">
+                    <span class="line-1"></span> <br>
+                    <span class="line-2"></span> <br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Aboout Us</a></li>
+            <li><a href="#">Features </a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Offer</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menu-btn">
+
+    <!-- about page -->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/about.png">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto ea esse est molestias error, vero voluptatibus numquam consequuntur quidem veritatis autem deleniti quae iste quibusdam consectetur temporibus assumenda quisquam placeat alias itaque minus a inventore architecto. Dolor itaque, incidunt accusantium odit hic quae veniam corrupti.</p> <br><br>
+                <div class="line">
+                    <span class="line-1"></span> <br>
+                    <span class="line-2"></span> <br>
+                    <span class="line-3"></span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis quae veniam conseq earum iure</h2>
+                <h3>---Aman Gangwani</h3>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script>
+        var menuBtn=document.getElementById("menu-btn");
+        var sideNav=document.getElementById("sideNav");
+        sideNav.style.right="-250px";
+        menuBtn.onclick=function()
+        {
+            if(sideNav.style.right=="-250px")
+            {
+                sideNav.style.right="0";
+            }
+            else
+            {
+                sideNav.style.right="-250px";
+            }
+        }
+        
+    </script>
+</body>
+</html>
