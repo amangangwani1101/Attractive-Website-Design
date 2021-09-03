@@ -1,0 +1,120 @@
+@media screen and (max-width:1274px) {
+    #header
+    {
+        background-image: none;
+        height:70vh;
+    }
+    .container
+    {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .header-text
+    {
+        max-width: 80vw;
+        margin:20vh auto 0;
+    }
+    #menu-btn {
+        width: 40px;
+        position: fixed;
+        right: 15px;
+        top: 35px;
+        z-index: 2;
+        cursor: pointer;
+    }
+    #about
+    {
+        padding: 0;
+        flex-direction: column;
+    }
+    .about-text
+    {
+        margin: auto;
+        width: 80vw;
+        text-align: left;
+    }
+    .about-text h2 {
+        margin: 20px 10px 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    #features {
+        padding: 20px 0;
+    }
+    .feature-row
+    {
+        flex-direction: column;
+    }
+    .feature-col img {
+        width: 143px;
+    }
+    .feature-col h4
+    {
+        font-size:25px ;
+    }
+    .feature-col p
+    {
+        font-size:17px;
+        width: 60vw;
+    }
+    .feature-col
+    {
+        margin-bottom: 30px;
+    }
+    .feature-btn {
+        margin: 10px auto 0;
+        justify-content: space-evenly;
+    }
+    #courses {
+        padding: 40px 0;
+    }
+    .course-row {
+        flex-direction: column-reverse;
+        margin: 0 13vw ;
+    }
+    .course-text h1
+    {
+        font-size:29px;
+    }
+    .course-left-col {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #offer
+    {
+        padding: 40px 0;
+        flex-direction: column;
+    }
+    .about-text h1
+    {
+        font-size: 28px;
+        text-align: center;
+    }
+    .contact-row
+    {
+        flex-direction:column-reverse;
+    }
+    .contact-left-col h1
+    {
+        font-size: 27px;
+    }
+    .contact-left-col form
+    {
+        width: 80vw;
+        margin-top: 20px;
+    }    
+    .contact-right-col
+    {
+        margin-bottom: 40px;
+    }
+    .footer-row 
+    {
+        flex-direction: column;
+        width:75vw;
+        margin: auto;
+    }
+    .link-title
+    {
+        margin-bottom: 20px;
+    }
+}
